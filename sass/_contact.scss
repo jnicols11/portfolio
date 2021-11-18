@@ -1,0 +1,74 @@
+.contact {
+
+    &__container {
+        background-color: $color-grey-light-2;
+        border: 6px solid $color-primary-accent;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+
+        &__form {
+            margin-left: 30%;
+
+            &__item {
+                margin-top: 2%;
+                margin-bottom: 2%;
+                & label {
+                    font-size: 14px;
+                    color: $color-primary-accent;
+                }
+
+                & input {
+                    height: 35px;
+                    width: 55%;
+                    border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                }
+
+                & textarea {
+                    width: 55%;
+                    resize: none;
+                    border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                }
+            }
+
+            & button {
+                margin-left: 18%;
+                height: 35px;
+                width: 100px;
+                margin-bottom: 3%;
+                cursor: pointer;
+                background-color: $color-grey-light-2;
+                color: $color-primary-accent;
+                border: 2px solid $color-primary-accent;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+                transition: all .5s;
+                -webkit-transition: all .5s;
+                -moz-transition: all .5s;
+                -ms-transition: all .5s;
+                -o-transition: all .5s;
+            }
+
+            & button:hover {
+                background-color: $color-primary-accent;
+                color: $color-grey-light-2;
+            }
+        }
+    }
+}

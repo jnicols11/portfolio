@@ -3,17 +3,18 @@
 
     &__container {
         position: relative;
-        background-color: $color-primary-accent;
+        background-color: $color-grey-light-2;
         height: 45rem;
         width: 60%;
         margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
+        border: 5px solid $color-primary-accent;
         box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
         &__textbox {
-            background-color: $color-grey-dark-2;
+            background-color: $color-grey-light-2;
             position: absolute;
             display: flex;
             justify-content: space-evenly;

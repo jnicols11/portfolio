@@ -6,7 +6,8 @@
     font-size: 1.5rem;
     font-weight: 400;
     border-color: $color-primary-accent;
-    box-shadow: 0.2rem 1rem 10rem #000;
+    box-shadow: 0.2px 1px 10px #000;
+    cursor: pointer;
     color: $color-primary-accent;
     background-color: $color-primary-dark;
     transition: all 0.5s;
@@ -24,6 +25,10 @@
     -moz-border-radius: 10rem;
     -ms-border-radius: 10rem;
     -o-border-radius: 10rem;
+
+    &:active {
+        border: none;
+    }
 }
 
 .btn {
